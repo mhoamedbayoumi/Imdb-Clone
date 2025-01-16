@@ -9,6 +9,7 @@ export default function NavBar() {
           </div>
           <div className="flex flex-row gap-9">
             <Link href={"/favorites"}>Favorite</Link>
+            <Link href={"/home/search"}>search</Link>
             <SignedIn>
                 <UserButton/>
             </SignedIn>

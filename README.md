@@ -1,3 +1,42 @@
+# IMDb Clone
+
+Welcome to the IMDb Clone project! This is a full-stack web application that mimics the functionality of IMDb, allowing users to browse movies, view details, and manage their favorite movies.
+
+## Features
+
+- **Browse Movies**: View a list of movies with details such as title, release date, rating, and overview.
+- **Movie Details**: Click on a movie to view more details.
+- **Favorite Movies**: Add movies to your favorites list.
+- **Delete Movies**: Remove movies from your favorites list.
+- **User Authentication**: Securely sign in using Clerk authentication.
+
+## Technologies Used
+
+- **Frontend**: Next.js, Tailwind CSS
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+- **Authentication**: Clerk
+- **API**: The Movie Database (TMDB) API
+
+## Getting Started
+
+Follow these instructions to get a copy of the project up and running on your local machine.
+
+### Prerequisites
+
+- Node.js (v16 or higher)
+- npm (v8 or higher)
+- MongoDB Atlas account (or local MongoDB instance)
+- Clerk account for authentication
+- TMDB API key
+
+### Installation
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/mhoamedbayoumi/Imdb-Clone.git
+   cd Imdb-Clone
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

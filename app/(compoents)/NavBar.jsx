@@ -13,7 +13,7 @@ export default function NavBar() {
                 <UserButton/>
             </SignedIn>
             <SignedOut>
-                <li className='hidden sm:block'>
+                <li className='list-none'>
                     <Link href={"/sign-in"}>Sign in</Link>
                 </li>
             </SignedOut>

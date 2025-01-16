@@ -13,7 +13,7 @@ Welcome to the IMDb Clone project! This is a full-stack web application that mim
 ## Technologies Used
 
 - **Frontend**: Next.js, Tailwind CSS
-- **Backend**: Node.js, Express.js
+- **Backend**: Next.js, mongoose
 - **Database**: MongoDB
 - **Authentication**: Clerk
 - **API**: The Movie Database (TMDB) API
@@ -27,6 +27,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 - Node.js (v16 or higher)
 - npm (v8 or higher)
 - MongoDB Atlas account (or local MongoDB instance)
+- mongoose
 - Clerk account for authentication
 - TMDB API key
 

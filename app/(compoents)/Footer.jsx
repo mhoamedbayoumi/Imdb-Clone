@@ -6,7 +6,7 @@ export default function Footer() {
           <div className="flex flex-wrap justify-between items-center mb-4">
             {/* Logo or Title */}
             <div className="mb-4 sm:mb-0">
-              <h1 className="text-2xl font-bold">Imdb Clone</h1>
+              <h1 className="text-2xl font-bold text-amber-300">Imdb Clone</h1>
               <p className="text-sm text-gray-400">Empowering your journey.</p>
             </div>
           </div>

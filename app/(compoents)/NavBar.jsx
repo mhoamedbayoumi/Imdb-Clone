@@ -8,7 +8,7 @@ export default function NavBar() {
           <h2 className="text-amber-300 font-bold text-lg">Imdb Clone</h2>
           </div>
           <div className="flex flex-row gap-9">
-            <h2>Favorite</h2>
+            <Link href={"/favorites"}>Favorite</Link>
             <SignedIn>
                 <UserButton/>
             </SignedIn>

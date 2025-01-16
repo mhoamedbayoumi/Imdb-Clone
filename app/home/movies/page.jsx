@@ -19,6 +19,11 @@ export default async function Movies() {
         <h1 className="text-3xl font-bold text-center mb-8 text-gray-100">
           Popular Movies
         </h1>
+        <Link href={"/home/search"}>
+          <h1 className="text-3xl font-bold text-center mb-8 animate-pulse">
+          Need to Search ?
+          </h1>
+        </Link>
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {movies.map((movie) => (

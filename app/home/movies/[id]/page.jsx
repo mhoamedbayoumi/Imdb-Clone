@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import SubmitButton from '@/app/(compoents)/AddToFavoriteBtn';
 
 // Fetch movie details from the API
 async function fetchMovieDetails(id) {
@@ -55,6 +56,7 @@ export default async function MoviePage({ params }) {
               <p className="text-sm text-gray-600">
                 Rating: <span className="text-yellow-500 font-bold">{movie.vote_average}/10</span>
               </p>
+              <SubmitButton movie={movie}/>
             </div>
           </div>
         </div>

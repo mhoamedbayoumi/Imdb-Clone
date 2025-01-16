@@ -8,7 +8,7 @@ export default function Hero() {
       <div className="text-center lg:text-left lg:w-1/2">
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
           Discover Your Next{" "}
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-purple-600">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-purple-600 animate-pulse">
             Favorite Movie
           </span>
         </h1>

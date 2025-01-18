@@ -25,6 +25,8 @@ Follow these instructions to get a copy of the project up and running on your lo
 ### Prerequisites
 
 - Node.js (v16 or higher)
+- Next 15
+- Tailwindcss
 - npm (v8 or higher)
 - MongoDB Atlas account (or local MongoDB instance)
 - mongoose

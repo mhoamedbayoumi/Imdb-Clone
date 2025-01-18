@@ -10,7 +10,7 @@ async function fetchMovies(query) {
     `https://api.themoviedb.org/3/search/movie?api_key=5e1be4931462d1bed591049354026c8a&query=${query}`
   );
   if (!res.ok) {
-    throw new Error("Failed to fetch movies");
+    throw new Error("Failed to fetch searched movies");
   }
   return res.json();
 }
